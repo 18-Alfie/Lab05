@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fire
   - Coin
+  - Ground
+  - Water
   layers:
   - Default
   - TransparentFX

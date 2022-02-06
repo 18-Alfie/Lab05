@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class RestartBtnScript : MonoBehaviour
 {
-    public void Restart()
+    public void Update()
     {
-        SceneManager.LoadScene("GameScene");
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            SceneManager.LoadScene("GameScene");
+        }
+        
     }
 }
